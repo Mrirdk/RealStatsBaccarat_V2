@@ -53,27 +53,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         val title = TextView(this).apply {
-            text = "🤖 AUTOROBOT BACCARAT V2 (ANDROID 14)
-"
+            text = "🤖 AUTOROBOT BACCARAT V2 (ANDROID 14)\n"
             textSize = 18f
         }
 
         val info = TextView(this).apply {
-            text = "• Tự động bắt kết quả từ màn hình (không cần bấm tay).
-" +
-                    "• Thu gọn thành Con Robot Mini nổi trên góc màn hình.
-" +
-                    "• Tự bật Bảng Mini báo Con/Cái & tỷ lệ thực từ data bàn.
-" +
-                    "• Bộ lọc bỏ qua cầu 50/50 nhiễu, chỉ chốt khi tỷ lệ thực đạt ngưỡng.
-
-" +
-                    "Cách dùng:
-" +
-                    "1. Bấm nút bên dưới -> Cấp quyền Cửa sổ nổi & Quay màn hình.
-" +
-                    "2. Vào bàn chơi, kéo tâm [🎯 QUÉT] đặt đè lên chỗ hiện chữ PLAYER/BANKER thắng.
-" +
+            text = "• Tự động bắt kết quả từ màn hình (không cần bấm tay).\n" +
+                    "• Thu gọn thành Con Robot Mini nổi trên góc màn hình.\n" +
+                    "• Tự bật Bảng Mini báo Con/Cái & tỷ lệ thực từ data bàn.\n" +
+                    "• Bộ lọc bỏ qua cầu 50/50 nhiễu, chỉ chốt khi tỷ lệ thực đạt ngưỡng.\n\n" +
+                    "Cách dùng:\n" +
+                    "1. Bấm nút bên dưới -> Cấp quyền Cửa sổ nổi & Quay màn hình.\n" +
+                    "2. Vào bàn chơi, kéo tâm [🎯 QUÉT] đặt đè lên chỗ hiện chữ PLAYER/BANKER thắng.\n" +
                     "3. Robot sẽ tự bắt dữ liệu và tự bật bảng mini báo lệnh."
             textSize = 14f
         }
